@@ -18,7 +18,7 @@
   <ContentPage.Content>
     <StackLayout>
 
-      <ActivityIndicator x:Name="xTournamentListIndicator" IsRunning="{Binding IsActivityRunning, Mode=TwoWay}" IsVisible="{Binding IsActivityRunning, Mode=TwoWay}"/>
+      <ActivityIndicator x:Name="xItemListIndicator" IsRunning="{Binding IsActivityRunning, Mode=TwoWay}" IsVisible="{Binding IsActivityRunning, Mode=TwoWay}"/>
 
       <Label x:Name="xEmptyListView"
              FontSize="16"
